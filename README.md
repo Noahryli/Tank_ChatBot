@@ -22,12 +22,19 @@ Built to run **entirely offline**, this project is ideal for secure or disconnec
 
 ## 📁 Project Structure
 tank_chatbot/
+
 ├── app.py # Main app runner (Gradio/Flask interface)
+
 ├── image_generator.py # Text-to-image logic using Stable Diffusion
+
 ├── image_retriever.py # CLIP-based image retrieval logic
+
 ├── image_index.pkl # Precomputed image embeddings
+
 ├── static/ # Images used for similarity matching
+
 ├── templates/ # HTML templates (if Flask is used)
+
 ├── README.md
 
 yaml
@@ -85,16 +92,24 @@ Then go to http://127.0.0.1:7860 in your browser.
 
 📦 Requirements
 |--- Python 3.9+
+
 |--- PyTorch
+
 |--- Stable Diffusion (via diffusers or similar)
+
 |--- CLIP (openai/clip)
+
 |--- Gradio or Flask
 
 📌 TODOs
 |--- Add toggle for switching between Gradio and Flask
+
 |--- Add download button for generated images
+
 |--- Improve UI with theme customization
+
 |--- Batch retrieval results as a grid
+
 |--- Add GPU usage toggle for low-end systems
 
 🛡️ License
@@ -102,8 +117,11 @@ MIT License. Feel free to use and modify.
 
 ✨ Acknowledgements
 |---CompVis/stable-diffusion
+
 |---OpenAI CLIP
+
 |---Hugging Face Transformers & Diffusers
+
 
 
 
