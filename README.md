@@ -41,14 +41,14 @@ Edit
 ### Text-to-Image
 Prompt: `"a tank moving in the forest"`
 
-![Generated Image](output/example_generated.png)
+![Generated Image](output/image_generation.png)
 
 ### Image-to-Image Retrieval
 Input:
-![Query](static/query.png)
+![Query](static/image_retrival_2.png)
 
 Top Matches:
-![Matches](output/matches.png)
+![Matches](output/image_retrival_2.png)
 
 ---
 
